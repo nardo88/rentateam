@@ -6,6 +6,18 @@
 }
 
 body {
-    
+    background: #FFFFFF;
 }
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
 
