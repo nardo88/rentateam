@@ -43,3 +43,53 @@
         }
     }
 }
+
+.burger{
+    display: none;
+
+    &__btn{
+        position: relative;
+        height: 24px;
+        width: 24px;
+        border: none;
+        background: none;
+
+        span{
+            background: #000000;
+            display: block;
+            height: 2px;
+            width: 10px;
+            position: absolute;
+            top: 50%;
+            left: 4px;
+            transform: translateY(-50%);
+        }
+
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 5px;
+            height: 2px;
+            left: 4px;
+            width: 16px;
+            background: #000000;
+            transition: .3s;
+
+        }
+        
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 5px;
+            height: 2px;
+            left: 4px;
+            width: 16px;
+            background: #000000;
+            transform-origin: left center;
+            transition: .3s;
+
+        }
+    }
+}
