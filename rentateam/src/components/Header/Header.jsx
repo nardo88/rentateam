@@ -2,6 +2,7 @@ import React from 'react';
 import basketImage from '../../assets/img/basket.svg'
 import logo from '../../assets/img/logo.png'
 
+
 const Header = () => {
     return (
         <header className="header">
@@ -20,5 +21,6 @@ const Header = () => {
         </header>
     )
 }
+
 
 export default Header;

@@ -1,0 +1,186 @@
+{
+	"categoryes": [{
+		"id": "burger",
+		"name": "Бургеры",
+		"products": ["01", "02", "03"]
+	}, {
+		"id": "twister",
+		"name": "Твистеры",
+		"products": ["11", "12", "13"]
+	}, {
+		"id": "chicken",
+		"name": "Курица",
+		"products": ["21", "22", "23"]
+	}, {
+		"id": "basket",
+		"name": "Баскеты",
+		"products": ["31", "32", "33"]
+	}, {
+		"id": "snack",
+		"name": "Снэки",
+		"products": ["41", "42", "43"]
+	}, {
+		"id": "sauces",
+		"name": "Соусы",
+		"products": ["51", "52", "53"]
+	}, {
+		"id": "Beverages",
+		"name": "Напитки",
+		"products": ["61", "62", "63"]
+	}, {
+		"id": "coffee",
+		"name": "Кофе и чай",
+		"products": ["71", "72", "73"]
+	}, {
+		"id": "desserts",
+		"name": "Десерты",
+		"products": ["81", "82", "83"]
+	}],
+	"goods": [{
+		"name": "burger",
+		"title": "Бургеры",
+		"products": [{
+			"id": "01",
+			"name": "Биг Тейсти Острый",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F01.png?alt=media&token=be672a28-e6c0-4dc9-8faf-ce9a28bf2ad7"
+		}, {
+			"id": "02",
+			"name": "Биг Тейсти Бекон",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F02.png?alt=media&token=f0afbbd2-4ff2-4da0-869d-3377d01ff269"
+		}, {
+			"id": "03",
+			"name": "Двойной Биг Тейсти",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F03.png?alt=media&token=c6843400-09f8-49c1-b2c2-3321f524999f"
+		}, {
+			"id": "04",
+			"name": "Роял Барбекю",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F04.png?alt=media&token=e2ce04e8-1d3f-45b8-a875-77931065658b"
+		}, {
+			"id": "05",
+			"name": "Биг Тейсти Джуниор",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F05.png?alt=media&token=99b33157-e13c-4c30-9ae8-7788e3948c9b"
+		}, {
+			"id": "06",
+			"name": "Роял Де Люкс",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F06.png?alt=media&token=4da97a6c-888b-4f8c-b9f2-ac2beae61bf0"
+		}, {
+			"id": "07",
+			"name": "Чикен Премьер",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/burgers%2F07.png?alt=media&token=f9535620-e814-48d5-92ff-60e6a6222e4b"
+		}]
+	}, {
+		"name": "twister",
+		"title": "Твистеры",
+		"products": [{
+			"id": "11",
+			"name": "Твистер острый",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/twister%2F11.png?alt=media&token=4dab35f3-fe6f-488a-9bfe-2f5281becedd"
+		}, {
+			"id": "12",
+			"name": "Твистер оригинальный",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/twister%2F12.png?alt=media&token=973bbbfd-6877-48d1-bdbd-331bc2bc8762"
+		}, {
+			"id": "13",
+			"name": "Твистер Де Люкс",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/twister%2F13.png?alt=media&token=3e3537c3-93b0-433c-a4f8-52ec4a82719c"
+		}, {
+			"id": "14",
+			"name": "БоксМастер острый",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/twister%2F14.png?alt=media&token=29b79f97-2cd3-4c28-afd2-2b53465c78bd"
+		}, {
+			"id": "15",
+			"name": "БоксМастер оригинальный",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/twister%2F15.png?alt=media&token=091b9ccb-99d9-4f92-a694-8144dd16a0a2"
+		}]
+	}, {
+		"name": "chicken",
+		"title": "Курица",
+		"products": [{
+			"id": "21",
+			"name": "Стрипсы оригинальные",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/chicken%2F21.png?alt=media&token=15e10f96-86ed-4563-aad4-631afcbd6d12"
+		}, {
+			"id": "22",
+			"name": "Острые Ножки",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/chicken%2F22.png?alt=media&token=22f6b844-1aac-49c2-b259-90fcd5390018"
+		}, {
+			"id": "23",
+			"name": "Крылья",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/chicken%2F23.png?alt=media&token=b672be00-ecb5-4d45-a8ca-2edb9540e9db"
+		}, {
+			"id": "24",
+			"name": "Стрипсы Острые",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/chicken%2F24.png?alt=media&token=dcb9feb1-44b3-484b-896a-e8c43638443e"
+		}]
+	}, {
+		"name": "basket",
+		"title": "Баскеты",
+		"products": [{
+			"id": "31",
+			"name": "Домашний Баскет",
+			"price": 450,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/basket%2F31.png?alt=media&token=7c7e517a-707c-47df-a636-24ca077c4b08"
+		}, {
+			"id": "32",
+			"name": "Сандерс Баскет",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/basket%2F32.png?alt=media&token=102621a2-7264-421c-9503-cf50108d10e7"
+		}]
+	}, {
+		"name": "snack",
+		"title": "Снэки",
+		"products": [{
+			"id": "41",
+			"name": "Снэк 1",
+			"price": 450,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/snack%2F43.png?alt=media&token=f1ded5ea-25cd-427d-87f5-777c40c17bf1"
+		}, {
+			"id": "42",
+			"name": "Снэк 2",
+			"price": 144,
+			"delivery": false,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/snack%2F44.png?alt=media&token=8ca75790-ac43-4ad8-bdec-7baae5ccd92b"
+		}, {
+			"id": "43",
+			"name": "Снэк 3",
+			"price": 144,
+			"delivery": true,
+			"img": "https://firebasestorage.googleapis.com/v0/b/renta-team.appspot.com/o/snack%2F45.png?alt=media&token=f96c25d1-5cd4-480b-b20b-26ee59d0a839"
+		}]
+	}]
+}
