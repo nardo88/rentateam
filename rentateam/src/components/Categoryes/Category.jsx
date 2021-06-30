@@ -3,6 +3,7 @@ import Product from './Product'
 
 
 const Category = ({data, isDeliveri}) => {
+    
 
     return (
         <section id={data.name} className="category">
@@ -11,7 +12,8 @@ const Category = ({data, isDeliveri}) => {
                     <h2 className="category__title">{data.title}</h2>
                     <div className="category__items">
                         {
-                            data.products.filter(elem => elem.delivery !== isDeliveri).map(item => <Product key={item.id} item={item} />)
+                            isDeliveri ? data.products.filter(elem => elem.delivery).map(item => <Product key={item.id} item={item} />)
+                            : data.products.map(item => <Product key={item.id} item={item} />)
                         }
                     </div>
                 </div>
