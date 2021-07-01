@@ -12,13 +12,14 @@ class Categoryes extends React.Component {
 
 
     render() {
+
         return (
             <div className="categoryes">
                 {
                     this.props.data.isFetching && <div className="fetching"><div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                 }
                 {
-                    this.props.data.goods.map((item, i) => <Category key={i} isDeliveri={this.props.data.isDeliveri} data={item} />)
+                    this.props.data.categoryes.map((item, i) => <Category key={i} isDeliveri={this.props.data.isDeliveri} products={this.props.data.products} data={item} />)
                 }
             </div>
         )

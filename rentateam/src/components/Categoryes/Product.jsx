@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Product = ({item}) => {
-
     const {name, img, price} = item
     return (
         <div className="product">

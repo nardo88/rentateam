@@ -8,7 +8,7 @@ const ID_DELIVERI = 'ID_DELIVERI';
 
 const initialState = {
     categoryes: [],
-    goods: [],
+    products: [],
     isFetching: true,
     isDeliveri: false
 }
@@ -16,11 +16,10 @@ const initialState = {
 
 
 const reducerGetDate = (state = initialState, action) => {
-    // debugger
 
     switch (action.type) {
         case GET_CATEGORIES:
-            return {...state, categoryes: [...action.state.categoryes], goods: [...action.state.goods]};
+            return {...state, categoryes: [...action.state.categoryes], products: [...action.state.products]};
         case IS_FETCHING:
             return {...state, isFetching: action.bull}
         case ID_DELIVERI: 
@@ -65,6 +64,10 @@ export const createGetDataThunk = () => {
         }).catch(() => {
             alert('client is offline')
         })
+
+        //  dbRef.get().then((snapshot) => {
+        //     dispatch(getDataAC((snapshot.val())))
+        // })
         
         
 
