@@ -1,7 +1,7 @@
 import './scss/style.scss';
 import React from 'react';
 
-import Header from './components/Header/Header';
+import HeaderContainer from './components/Header/Header';
 import MainContainer from './components/Main/Main';
 import NavigationContainer from './components/Navigation/Navigation';
 import CategoryesContainer from './components/Categoryes/Categoryes';
@@ -17,7 +17,7 @@ const App = () =>{
     
       <>
         <Provider store={store}>
-          <Header />
+          <HeaderContainer />
           <MainContainer />
           <NavigationContainer />
           <CategoryesContainer />

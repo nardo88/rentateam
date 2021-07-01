@@ -1,15 +1,13 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Category from './Category';
-import { getDataAC, createGetDataThunk } from '../../store/reducers/reducerGetDate';
+import { createGetDataThunk } from '../../store/reducers/reducerGetDate';
 
 class Categoryes extends React.Component {
 
     componentDidMount() {
         this.props.createGetDataThunk()
-  
     }
-
 
     render() {
 
@@ -33,6 +31,8 @@ const mapStateToProps = state => {
 }
 
 
-const CategoryesContainer = connect(mapStateToProps, {getDataAC, createGetDataThunk})(Categoryes)
+
+
+const CategoryesContainer = connect(mapStateToProps, {createGetDataThunk})(Categoryes)
 
 export default CategoryesContainer

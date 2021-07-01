@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from './Product'
+import ProductContainer from './Product'
 import {getCard} from '../../components/Functions/functions'
 
 
@@ -14,8 +14,8 @@ const Category = ({data, isDeliveri, products}) => {
                     <h2 className="category__title">{data.name}</h2>
                     <div className="category__items">
                         {
-                            isDeliveri ? base.filter(elem => elem.delivery).map(item => <Product key={item.id} item={item} />)
-                            : base.map(item => <Product key={item.id} item={item} />)
+                            isDeliveri ? base.filter(elem => elem.delivery).map(item => <ProductContainer key={item.id} item={item} />)
+                            : base.map(item => <ProductContainer key={item.id} item={item} />)
 
                             
                         }

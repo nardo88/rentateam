@@ -59,9 +59,45 @@
     &:hover {
         background: #FFFFFF;
 
-        .product__name{
+        .product__name {
             color: #000;
         }
 
+    }
+}
+
+
+.add-remove {
+    width: 95px;
+    height: 40px;
+    background: #000;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+
+    &__btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+        background: transparent;
+        color: #fff;
+        border: none;
+        font-family:$BarlowCondensed;
+
+
+    }
+
+    &__value {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        font-family:$BarlowCondensed;
     }
 }
