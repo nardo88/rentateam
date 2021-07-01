@@ -62,6 +62,8 @@ export const createGetDataThunk = () => {
             dispatch(getDataAC((snapshot.val())))
         }).then(() => {
             dispatch(isFetchingAC(false))
+        }).catch(() => {
+            alert('client is offline')
         })
         
         

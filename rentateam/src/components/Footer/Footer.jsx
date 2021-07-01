@@ -51,7 +51,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="footer__item footer-item">
+                            <li className="footer__item footer-item footer-item--logo">
                                 <div className="footer-item__logo"></div>
                             </li>
                             <li className="footer__item footer-item">
