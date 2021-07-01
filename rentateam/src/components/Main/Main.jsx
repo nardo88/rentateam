@@ -28,15 +28,16 @@ const Main = ({isDeliveri, isDeliveriAC, street, house, changeStreet, changeHous
                                                 <div className="form__item ">
                                                     <label htmlFor="street" className="form__label">Улица</label>
                                                     <input id="street" type="text" className="form__input " value={street} onChange={e => changeStreet(e.target.value)} />
-                                                    {
-                                                        hasAdress && <span className="req">Нужно заполнить для оформления доставки</span>
-                                                    }
+                                                   
                                                     
                                                 </div>
                                                 <div className="form__item">
                                                     <label htmlFor="house" className="form__label">Дом</label>
                                                     <input id="house" type="text" className="form__input" value={house} onChange={e => changeHouse(e.target.value)}/>
                                                 </div>
+                                                {
+                                                        hasAdress && <span className="req">Нужно заполнить для оформления доставки</span>
+                                                    }
                                             </div>
                                         </div>
                     }

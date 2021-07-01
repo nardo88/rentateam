@@ -303,6 +303,25 @@
             font-size: 14px;
         }
     }
+
+    .req{
+        
+        width: 100%;
+        font-size: 14px;
+        position: relative;
+        margin-top: 15px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #000000;
+            z-index: 5;
+          
+            left: 75%;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -362,6 +381,15 @@
         &__bottom {
             margin-top: 20px;
         }
+    }
+
+    .req{
+        
+        width: 100%;
+        font-size: 11px;
+        padding: 10px;
+
+   
     }
 }
 
